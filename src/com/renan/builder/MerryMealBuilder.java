@@ -1,9 +1,9 @@
 package com.renan.builder;
 
-public class HappyBurguerBuilder extends ChildMealBuilder {
+public class MerryMealBuilder extends ChildMealBuilder {
     @Override
     public void buildMainItem() {
-        this.childMeal.setMainItem("Happy Burguer");
+        this.childMeal.setMainItem("Merry Burguer");
     }
 
     @Override
