@@ -25,9 +25,9 @@ public class ChildMeal {
     @Override
     public String toString() {
         return "Child meal composed of:" +
-                "\nMain item: " + mainItem +
-                "\nSide Item: " + sideItem +
-                "\nDrink: " + drink +
-                "\nToy: " + toy;
+                "\nMain item: " + this.mainItem +
+                "\nSide Item: " + this.sideItem +
+                "\nDrink: " + this.drink +
+                "\nToy: " + this.toy;
     }
 }

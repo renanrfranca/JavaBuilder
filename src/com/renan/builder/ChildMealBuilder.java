@@ -4,7 +4,7 @@ public abstract class ChildMealBuilder {
     protected ChildMeal childMeal = new ChildMeal();
 
     public ChildMeal getChildMeal() {
-        return childMeal;
+        return this.childMeal;
     }
 
     public abstract void buildMainItem();

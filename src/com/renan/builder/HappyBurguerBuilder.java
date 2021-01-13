@@ -3,21 +3,21 @@ package com.renan.builder;
 public class HappyBurguerBuilder extends ChildMealBuilder {
     @Override
     public void buildMainItem() {
-        childMeal.setMainItem("Happy Burguer");
+        this.childMeal.setMainItem("Happy Burguer");
     }
 
     @Override
     public void buildSideItem() {
-        childMeal.setSideItem("Fries");
+        this.childMeal.setSideItem("Fries");
     }
 
     @Override
     public void buildDrink() {
-        childMeal.setDrink("Coke");
+        this.childMeal.setDrink("Coke");
     }
 
     @Override
     public void buildToy() {
-        childMeal.setToy("Arachnid-Man");
+        this.childMeal.setToy("Arachnid-Man");
     }
 }
